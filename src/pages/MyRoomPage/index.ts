@@ -1,0 +1,1 @@
+export { MyRoomPage } from './ui';

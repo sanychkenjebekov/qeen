@@ -1,0 +1,31 @@
+.container {
+    @apply m-5 p-5 rounded-xl bg-secondary flex items-center justify-between;
+}
+
+.burgerWrapper {
+    @apply flex items-center;
+}
+
+.burger {
+    @apply pr-3 text-2xl lg:hidden;
+}
+
+.title {
+    @apply text-blue font-medium capitalize;
+}
+
+.menu {
+    @apply flex items-center gap-5;
+}
+
+.search {
+    @apply flex items-center gap-3 bg-primary p-3 rounded-xl;
+}
+
+.input {
+    @apply bg-transparent border-none text-blue outline-none;
+}
+
+.icons {
+    @apply flex gap-5;
+}

@@ -1,0 +1,23 @@
+.user {
+    @apply relative flex items-center lg:justify-start  gap-5 mb-5;
+}
+
+.userImage {
+    @apply rounded-[50%] object-cover;
+}
+
+.userDetail {
+    @apply flex flex-col;
+}
+
+.username {
+    @apply font-medium;
+}
+
+.userTitle {
+    @apply text-xs text-blue;
+}
+
+.arrow {
+    @apply lg:hidden text-2xl ml-auto;
+}

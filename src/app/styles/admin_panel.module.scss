@@ -1,0 +1,29 @@
+.container {
+    @apply flex;
+}
+
+.menu {
+    @apply bg-secondary h-screen;
+}
+
+.content {
+    @apply h-screen overflow-scroll;
+    flex: 4;
+}
+
+.wrapper {
+    @apply flex gap-5 mt-5;
+}
+
+.main {
+    @apply flex flex-col gap-5;
+    flex: 3;
+}
+
+.cards {
+    @apply flex gap-5 justify-between;
+}
+
+.side {
+    flex: 1;
+}

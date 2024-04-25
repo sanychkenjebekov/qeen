@@ -1,0 +1,1 @@
+export { OneItemPage } from './ui';

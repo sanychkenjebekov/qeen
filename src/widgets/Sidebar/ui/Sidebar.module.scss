@@ -1,0 +1,38 @@
+.container {
+    @apply p-5 pr-8 bg-secondary transition-all duration-500 ease-linear  absolute z-50 transform translate-x-[-100%]
+ lg:relative lg:z-0 lg:transform-none h-full overflow-scroll;
+}
+
+.open {
+    @apply h-screen p-5 lg:p-9 transition-all duration-500 ease-linear  absolute transform translate-x-[0%]
+  bg-secondary z-10 md:w-[30%] md:h-[100vh] overflow-scroll;
+}
+
+.logout {
+    @apply font-light text-gray-50 bg-secondary p-2 flex items-center gap-3 cursor-pointer rounded-xl border-none  w-full hover:text-secondary
+	transition-all text-base;
+}
+
+.sidebarItem__link {
+    @apply font-light mb-5 flex items-center mx-0 my-1 rounded-xl;
+    transition: all 0.3s ease;
+    & span {
+        @apply py-2 px-2;
+    }
+}
+
+.sidebarItem__link:hover {
+    @apply text-white transition-all duration-200 ease-linear;
+}
+
+.link {
+    @apply relative;
+}
+
+.item {
+    @apply absolute top-2.5 right-5 text-primary text-xl cursor-pointer;
+}
+
+.active {
+    @apply text-secondary;
+}

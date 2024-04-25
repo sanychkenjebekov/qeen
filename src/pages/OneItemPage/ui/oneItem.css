@@ -1,0 +1,11 @@
+.border-color-change {
+    border: 1px solid rgba(207, 224, 250, 1);
+    border-radius: 12px;
+}
+
+.border-color-change:hover,
+.border-color-change:focus {
+    border: 1px solid rgba(207, 224, 250, 1);
+    outline: none;
+    border-radius: 12px;
+}
